@@ -7,6 +7,5 @@
     $triangulo1 = new Triangulo($altura, $base);
 
     $area = $triangulo1->area();
-    $triangulo1->imprime();
-    echo $area;
+    $triangulo1->imprime($area);
 ?>
