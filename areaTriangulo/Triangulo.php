@@ -28,7 +28,8 @@
             return (($this->base * $this->altura)/2);
         }
 
-        public function imprime(){
-            echo "O triângulo de base " . $this->base . " e altura " . $this->altura . " possui area de ";
+        public function imprime($area){
+            echo "O triângulo de base " . $this->base . " e altura " . $this->altura . " possui area de " . $area;
+            //alterei este método para receber a área como parâmetro e centralizar a montagem do texto. É uma alternativa.
         }
     }
